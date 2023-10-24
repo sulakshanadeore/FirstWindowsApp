@@ -28,6 +28,8 @@ namespace FirstWindowsApp
             if (ans)
             {
                 MessageBox.Show("Welcome " + userdata.Userid);
+                MenuForm menuform=new MenuForm();  
+                menuform.Show();
             }
             else
             {
